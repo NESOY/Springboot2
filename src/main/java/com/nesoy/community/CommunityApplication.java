@@ -1,7 +1,7 @@
 package com.nesoy.community;
 
 import com.nesoy.community.domain.Board;
-import com.nesoy.community.domain.BoardType;
+import com.nesoy.community.domain.enums.BoardType;
 import com.nesoy.community.domain.User;
 import com.nesoy.community.repository.BoardRepository;
 import com.nesoy.community.repository.UserRepository;

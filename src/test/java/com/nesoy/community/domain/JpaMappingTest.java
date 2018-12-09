@@ -1,5 +1,6 @@
 package com.nesoy.community.domain;
 
+import com.nesoy.community.domain.enums.BoardType;
 import com.nesoy.community.repository.BoardRepository;
 import com.nesoy.community.repository.UserRepository;
 import org.junit.Before;

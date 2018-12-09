@@ -1,5 +1,6 @@
 package com.nesoy.community.domain;
 
+import com.nesoy.community.domain.enums.SocialType;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -26,6 +27,15 @@ public class User implements Serializable{
 
     @Column
     private String email;
+
+    @Column
+    // OAuth2 인증으로 제공받는 키값인 prinncipal
+    private String principal;
+
+    @Column
+    @Enumerated(EnumType.STRING)
+    private SocialType socialType;
+
 
     @Column
     private LocalDateTime createdDate;

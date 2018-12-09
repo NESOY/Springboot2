@@ -1,4 +1,4 @@
-package com.nesoy.community.domain;
+package com.nesoy.community.domain.enums;
 
 public enum BoardType {
     notice("공지사항"),
